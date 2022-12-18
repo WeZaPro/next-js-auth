@@ -36,7 +36,7 @@ export default function Home() {
               <MenuIcon />
             </IconButton>
             <Typography variant="h7" component="div" sx={{ flexGrow: 1 }}>
-              Email {session.user.email}
+              Email
             </Typography>
             {session ? (
               <div>
